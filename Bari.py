@@ -1,16 +1,18 @@
-import turtle
-bob = turtle.Turtle()
-bob.forward(100)
-bob.left(120)
-bob.forward(100)
-bob.left(120)
-bob.forward(100)
-bob.left(210)
-bob.backward(100)
-bob.left(90)
-bob.backward(100)
-bob.left(90)
-bob.backward(100)
+# def minima(alist):
+#     x = alist[0]
+#     for i in alist:
+#         if i < x:
+#             x = i
+#     return x
+# print(minima([1,2, 3,4,5]))
 
+s = int(input())
+x = int(str(s)[-1])
+if x >= 5:
+    x = 0
+    string.replace(s, s[len(s) - 1], x)
+elif x < 5:
+    x = 10
+    string.replace(s, s[len(s) - 1], x)
 
-turtle.done()
+print(s)
