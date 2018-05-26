@@ -27,14 +27,13 @@ def drawRectangle(t, width, height, color):
   t.end_fill()
   
 
-
-  # Draw and fill the front of the house
+# Draw and fill the red rectangle 
 george.penup() 
 george.goto(-250, -250)
 george.pendown()
 drawRectangle(george,500, 400, "red")
 
-# # Draw and fill the front door
+# # Draw and fill the star
 
 star = turtle.Turtle()
 star.penup()
