@@ -1,11 +1,3 @@
-# def minima(alist):
-#     x = alist[0]
-#     for i in alist:
-#         if i < x:
-#             x = i
-#     return x
-# print(minima([1,2, 3,4,5]))
-
 s = int(input())
 x = int(str(s)[-1])
 if x >= 5:
